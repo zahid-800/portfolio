@@ -54,10 +54,7 @@ ul li a {
 .logo a h1 {
     padding-top: 20px;
     font-size: 28px;
-    color:#fff;
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
+    color: #fdf9f9;
     font-weight: 800;
 }
 
@@ -166,10 +163,7 @@ ul li a {
     font-size: 50px;
     line-height: 55px;
     font-weight: 700;
-    color:#000;
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
+    color: #181717;
 }
 
 .hero_heading p {
@@ -353,10 +347,7 @@ ul li a {
 
 .text_gradient {
     font-weight: 700;
-    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
+    color: #000;
 }
 
 .download_resume {
@@ -877,10 +868,7 @@ ul li a {
     font-weight: 700;
     color: #fffafa;
     padding-bottom: 1.5rem;
-    color:#000;
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
 }
 
 .p_standard h1 span {
@@ -1075,9 +1063,6 @@ ul li a {
 }
 .footer_logo a h3{
     color:#fff;
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
     font-size: 36px;
     font-weight: 700;
 }
