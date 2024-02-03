@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Syne;
+}
+
+.nav_bg {
+    background-color: #000000;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    box-shadow: 1px 1px 2px #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+
+
+nav ul {
+    float: right;
+    margin-right: 13px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fdf9f9;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+
+.logo a h1 {
+    padding-top: 20px;
+    font-size: 28px;
+    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    background-clip: text;
+    font-family: Syne;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.nohover:hover {
+    background: transparent;
+}
+
+.loginbtn {
+    margin-right: 10px;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fdf7f7;
+    float: right;
+    line-height: 80px;
+    margin-right: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+@media (max-width:1200px) {
+    .logo {
+        padding: 0 5px;
+    }
+
+    ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:991px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        background-color: #99b3ff;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    a.active,
+    a:hover {
+        background: none;
+        color: #1818d4;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    ul li a {
+        font-size: 22px;
+    }
+}
+/* blog page start */
+
+
+  /* recent blog page start */
+  .blog_heading h1{
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+  }
+.blog_link{
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(105, 102, 102);
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.1s all;
+    background: transparent;
+    color: #181717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog_link:hover{
+    color: #fffefe;
+    background: #5303e9; 
+}
+.blog_link a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.blog_link a:hover{
+    color: #fffefe;
+}
+  .blog_card p{
+    font-size: 22px;
+    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    background-clip: text;
+    font-family: Syne;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    padding-top: 1rem;
+  }
+
+  .blog_card h3{
+    font-size: 36px;
+    color: #000;
+    font-weight: 600;
+  }
+  .blog_img{
+    overflow: hidden;
+  }
+  .blog_card{
+    overflow: hidden;
+  }
+  .blog_img img{
+    overflow: hidden;
+    transition: 0.7s all;
+  }
+  .blog_img img:hover{
+    transform: scale(1.1);
+  }
+
+   /* footer page start */
+.footer_bg{
+    background: #000;
+}
+  .footer_main{
+   background:  linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+   padding: 4rem 2rem;
+  }
+
+  .footer_call_btn{
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(105, 102, 102);
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s all;
+    background: t#fff;
+    color: #181717;
+  }
+  .footer_call_btn:hover{
+    color: #fffefe;
+    background: #080808; 
+}
+.footer_heading h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 800;
+    padding-top: 2rem;
+}
+.footer_right h4{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 800;
+    padding-top: 2rem;
+}
+.copyright p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer_logo a h3{
+    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    background-clip: text;
+    font-family: Syne;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.fa-facebook,.fa-x-twitter,.fa-linkedin{
+    font-size: 22px;
+    color:rgb(255, 255, 255) ;
+    margin-left: 1rem;
+}
+
+@media(max-width:991px) {
+    .fa-facebook,.fa-x-twitter,.fa-linkedin{
+        font-size: 12px;
+        color:rgb(255, 255, 255) ;
+        margin-left: .2rem;
+    }
+}
+@media(max-width:576px) {
+    .copyright p{
+        font-size: 16px;
+    }
+    .footer_logo a h3{
+        font-size: 18px;
+    }
+}
