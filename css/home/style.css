@@ -1006,7 +1006,7 @@ ul li a {
 }
   .blog_card p{
     font-size: 22px;
-    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    color:#000;
     background-clip: text;
     font-family: Syne;
     -webkit-text-fill-color: transparent;
