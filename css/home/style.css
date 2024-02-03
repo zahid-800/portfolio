@@ -673,7 +673,7 @@ ul li a {
 }
 
 .process_image {
-    background: url(/working.jpg);
+    background: url(../working.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
