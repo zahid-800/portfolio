@@ -575,9 +575,6 @@ ul li a {
 .text h2 {
     font-size: 28px;
     color:#000;
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
     font-weight: 700;
 }
 
