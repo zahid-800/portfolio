@@ -54,7 +54,7 @@ ul li a {
 .logo a h1 {
     padding-top: 20px;
     font-size: 28px;
-    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    color:#fff;
     background-clip: text;
     font-family: Syne;
     -webkit-text-fill-color: transparent;
@@ -166,7 +166,7 @@ ul li a {
     font-size: 50px;
     line-height: 55px;
     font-weight: 700;
-    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    color:#000;
     background-clip: text;
     font-family: Syne;
     -webkit-text-fill-color: transparent;
@@ -583,7 +583,7 @@ ul li a {
 
 .text h2 {
     font-size: 28px;
-    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    color:#000;
     background-clip: text;
     font-family: Syne;
     -webkit-text-fill-color: transparent;
@@ -877,7 +877,7 @@ ul li a {
     font-weight: 700;
     color: #fffafa;
     padding-bottom: 1.5rem;
-    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    color:#000;
     background-clip: text;
     font-family: Syne;
     -webkit-text-fill-color: transparent;
@@ -1074,7 +1074,7 @@ ul li a {
     font-size: 16px;
 }
 .footer_logo a h3{
-    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    color:#fff;
     background-clip: text;
     font-family: Syne;
     -webkit-text-fill-color: transparent;
