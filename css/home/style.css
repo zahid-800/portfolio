@@ -665,7 +665,7 @@ ul li a {
     right: 0;
     bottom: 0;
     width:300px;
-    background: url(/img/w1bg.jpg);
+    background: url(../img/w1bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
