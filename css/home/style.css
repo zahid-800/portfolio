@@ -236,14 +236,12 @@ ul li a {
 }
 
 @media(max-width:991px) {
-    .laptop_view {
-        display: block;
-/*         display: none; */
+    .laptop_view {  
+        display: none;
     }
 
     .mobile_view {
-/*         display: block; */
-         display: none;
+        display: block;
     }
 
     .hero_responsive {
