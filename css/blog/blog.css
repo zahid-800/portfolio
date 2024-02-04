@@ -55,9 +55,8 @@ ul li a {
     padding-top: 20px;
     font-size: 28px;
     background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
     font-weight: 800;
 }
 
@@ -167,9 +166,8 @@ ul li a {
   .blog_card p{
     font-size: 22px;
     background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
     font-weight: 600;
     padding-top: 1rem;
   }
@@ -236,9 +234,8 @@ ul li a {
 }
 .footer_logo a h3{
     background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
-    background-clip: text;
-    font-family: Syne;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
     font-size: 36px;
     font-weight: 700;
 }
