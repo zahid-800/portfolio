@@ -662,15 +662,16 @@ ul li a {
 }
 
 .working_img {
-    position: absolute;
+   position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     width:300px;
+    background: url(/img/w1bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover
 }
 
 
@@ -696,7 +697,7 @@ ul li a {
 }
 
 @media(max-width:1200px) {
-    .process_image {
+    .working_img {
         background: none;
     }
 
