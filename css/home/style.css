@@ -237,11 +237,13 @@ ul li a {
 
 @media(max-width:991px) {
     .laptop_view {
-        display: none;
+        display: block;
+/*         display: none; */
     }
 
     .mobile_view {
-        display: block;
+/*         display: block; */
+         display: none;
     }
 
     .hero_responsive {
@@ -707,7 +709,7 @@ ul li a {
 }
 
 @media(max-width:1200px) {
-    .process_image {
+   .working_img {
         background: none;
     }
 
@@ -1083,5 +1085,11 @@ ul li a {
     }
     .footer_logo a h3{
         font-size: 18px;
+    }
+    .footer_heading h1{
+        font-size: 40px;
+        color: #fff;
+        font-weight: 800;
+        padding-top: 1rem;
     }
 }
